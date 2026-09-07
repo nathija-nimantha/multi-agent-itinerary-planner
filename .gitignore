@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+kb/.embeddings.npz
+backend/kb/.embeddings.npz
+plan_stream.txt
+*.tsbuildinfo
+static/
+.claude/
+.DS_Store
