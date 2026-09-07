@@ -14,3 +14,4 @@ plan_stream.txt
 static/
 .claude/
 .DS_Store
+.vercel/
