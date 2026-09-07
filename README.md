@@ -1,11 +1,11 @@
-# multi-agent-test
+# multi-agent-itinerary-planner
 
 A multi-agent RAG itinerary planner: a Python **backend** running the agent graph
 on Google ADK, and a React **frontend** with a chat view and a hidden panel that
 exposes every agent's input and output.
 
 ```
-multi-agent-test/
+multi-agent-itinerary-planner/
 ├── backend/     FastAPI + Google ADK 2.8 — the agent graph, tools, retrieval
 └── frontend/    Vite + React 19 + Tailwind 4 — chat, and the agent trace panel
 ```

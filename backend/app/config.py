@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
 KB_PATH = ROOT / "kb" / "sri_lanka.json"
-APP_NAME = "multi-agent-test"
+APP_NAME = "multi-agent-itinerary-planner"
 
 # tier -> model id, per provider
 PROVIDERS: dict[str, dict[str, str]] = {
