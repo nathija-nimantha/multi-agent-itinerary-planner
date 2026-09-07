@@ -1,0 +1,1074 @@
+{
+  "destination": "Sri Lanka",
+  "currency": "USD",
+  "disclaimer": "Prototype data. Costs and hours are illustrative ballpark figures for testing the grounding pipeline, not verified live pricing.",
+  "places": [
+    {
+      "id": "sigiriya_rock",
+      "name": "Sigiriya Lion Rock",
+      "base": "sigiriya",
+      "region": "Cultural Triangle",
+      "type": "heritage",
+      "summary": "UNESCO 5th-century rock fortress rising 200m from the plain. Roughly 1,200 steps past the mirror wall and the frescoes of the Sigiriya maidens to a summit palace ruin. Steep, exposed and hot after 9am; the climb is not suitable for travellers with mobility limits or a fear of heights.",
+      "tags": [
+        "culture",
+        "heritage",
+        "hiking",
+        "photography",
+        "unesco"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 3.0,
+      "entry_cost_usd_pp": 36,
+      "opening": "07:00-17:00 (last entry 17:00)"
+    },
+    {
+      "id": "pidurangala",
+      "name": "Pidurangala Rock",
+      "base": "sigiriya",
+      "region": "Cultural Triangle",
+      "type": "hike",
+      "summary": "The rock facing Sigiriya, giving the classic side-on view of the Lion Rock at sunrise. A rough 30-45 minute scramble with a boulder section near the top. Far cheaper than Sigiriya and popular as a sunrise alternative.",
+      "tags": [
+        "hiking",
+        "photography",
+        "sunrise",
+        "budget"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 4,
+      "opening": "05:00-18:00"
+    },
+    {
+      "id": "dambulla_caves",
+      "name": "Dambulla Golden Cave Temple",
+      "base": "dambulla",
+      "region": "Cultural Triangle",
+      "type": "heritage",
+      "summary": "Five cave shrines cut into a granite overhang holding more than 150 Buddha statues and painted ceilings dating to the 1st century BC. A short uphill walk to the entrance. Shoulders and knees must be covered; shoes removed at the shrine.",
+      "tags": [
+        "culture",
+        "heritage",
+        "unesco",
+        "buddhism"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 10,
+      "opening": "07:00-19:00"
+    },
+    {
+      "id": "polonnaruwa",
+      "name": "Polonnaruwa Ancient City",
+      "base": "polonnaruwa",
+      "region": "Cultural Triangle",
+      "type": "heritage",
+      "summary": "Sri Lanka's medieval capital, a compact UNESCO site best covered by rented bicycle over 3-4 hours. Highlights are the Gal Vihara rock-cut Buddhas, the Vatadage and the royal palace ruins. Flat and shaded in parts, easier going than Anuradhapura.",
+      "tags": [
+        "culture",
+        "heritage",
+        "unesco",
+        "cycling"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 30,
+      "opening": "07:00-18:00"
+    },
+    {
+      "id": "anuradhapura",
+      "name": "Anuradhapura Sacred City",
+      "base": "anuradhapura",
+      "region": "Cultural Triangle",
+      "type": "heritage",
+      "summary": "The island's first capital and still an active pilgrimage centre. Sri Maha Bodhi, grown from a cutting of the tree the Buddha sat under, plus the vast Ruwanwelisaya and Jetavanaramaya dagobas. Spread out; a vehicle or bicycle is needed between clusters.",
+      "tags": [
+        "culture",
+        "heritage",
+        "unesco",
+        "buddhism",
+        "pilgrimage"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 30,
+      "opening": "07:00-18:00"
+    },
+    {
+      "id": "minneriya_safari",
+      "name": "Minneriya Elephant Gathering",
+      "base": "sigiriya",
+      "region": "Cultural Triangle",
+      "type": "wildlife",
+      "summary": "Afternoon jeep safari on the reservoir grasslands where wild elephant herds congregate as the water recedes. The Gathering peaks August to September when several hundred animals can be present; outside those months herds move to neighbouring Kaudulla or Eco Park.",
+      "tags": [
+        "wildlife",
+        "elephants",
+        "safari",
+        "family"
+      ],
+      "best_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 45,
+      "opening": "afternoon departures 14:00"
+    },
+    {
+      "id": "temple_tooth",
+      "name": "Temple of the Sacred Tooth Relic",
+      "base": "kandy",
+      "region": "Hill Country",
+      "type": "heritage",
+      "summary": "Sri Dalada Maligawa, the golden-roofed shrine holding the Buddha's tooth relic and the spiritual centre of Sri Lankan Buddhism. Time a visit to one of the three daily puja ceremonies when the relic chamber is opened. White or modest dress expected.",
+      "tags": [
+        "culture",
+        "heritage",
+        "buddhism",
+        "unesco"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 10,
+      "opening": "puja at 05:30, 09:30 and 18:30"
+    },
+    {
+      "id": "peradeniya_gardens",
+      "name": "Royal Botanical Gardens, Peradeniya",
+      "base": "kandy",
+      "region": "Hill Country",
+      "type": "nature",
+      "summary": "147 acres of colonial-era botanical gardens on a loop of the Mahaweli river, with an orchid house, a giant Javan fig and an avenue of royal palms. Flat, shaded, pram- and wheelchair-friendly; a good low-effort option on a rest day.",
+      "tags": [
+        "nature",
+        "gardens",
+        "family",
+        "accessible",
+        "relaxed"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.5,
+      "entry_cost_usd_pp": 10,
+      "opening": "07:30-17:00"
+    },
+    {
+      "id": "kandy_cultural_show",
+      "name": "Kandyan Dance Performance",
+      "base": "kandy",
+      "region": "Hill Country",
+      "type": "culture",
+      "summary": "An hour of Kandyan drumming, masked dance and a closing fire-walking act, staged nightly at several halls near the lake. Touristic but a reliable early-evening filler that works well for children.",
+      "tags": [
+        "culture",
+        "family",
+        "evening",
+        "dance"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 1.0,
+      "entry_cost_usd_pp": 8,
+      "opening": "17:00 daily"
+    },
+    {
+      "id": "kandy_lake_market",
+      "name": "Kandy Lake and Central Market",
+      "base": "kandy",
+      "region": "Hill Country",
+      "type": "city",
+      "summary": "A flat 3km circuit of the artificial lake built by the last Kandyan king, paired with the covered produce and spice market in town. Free, unhurried and a natural way to fill a half day between transfers.",
+      "tags": [
+        "city",
+        "food",
+        "relaxed",
+        "budget",
+        "walking"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "kandy_ella_train",
+      "name": "Kandy to Ella Observation Train",
+      "base": "kandy",
+      "region": "Hill Country",
+      "type": "transport",
+      "summary": "Widely called one of the world's most scenic rail journeys: roughly seven hours climbing through tea terraces, tunnels and cloud forest to Ella. Reserved first and second class sell out weeks ahead; unreserved carriages mean standing. Counts as the day's transfer, not an add-on activity.",
+      "tags": [
+        "scenic",
+        "train",
+        "photography",
+        "slow-travel"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 7.0,
+      "entry_cost_usd_pp": 10,
+      "opening": "departures 08:47 and 11:10"
+    },
+    {
+      "id": "nuwara_eliya_tea",
+      "name": "Tea Plantation and Factory Tour",
+      "base": "nuwara_eliya",
+      "region": "Hill Country",
+      "type": "culture",
+      "summary": "A working high-grown estate above 1,800m, walking the plucking fields and the withering, rolling and grading floors before a tasting flight. Damro Labookellie and Pedro Estate are the accessible options straight off the Nuwara Eliya road.",
+      "tags": [
+        "tea",
+        "culture",
+        "food",
+        "relaxed"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 8,
+      "opening": "08:00-17:00"
+    },
+    {
+      "id": "horton_plains",
+      "name": "Horton Plains and World's End",
+      "base": "nuwara_eliya",
+      "region": "Hill Country",
+      "type": "hike",
+      "summary": "A 9km loop across high montane grassland to a 870m cliff drop, taking in Baker's Falls. The view closes in behind cloud by about 09:30, so the gate must be reached around 06:00 — meaning a pre-dawn departure from Nuwara Eliya. Cold at altitude.",
+      "tags": [
+        "hiking",
+        "nature",
+        "sunrise",
+        "photography"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "suggested_hours": 5.0,
+      "entry_cost_usd_pp": 25,
+      "opening": "06:00-16:00, arrive by 06:30"
+    },
+    {
+      "id": "gregory_lake",
+      "name": "Gregory Lake Park",
+      "base": "nuwara_eliya",
+      "region": "Hill Country",
+      "type": "nature",
+      "summary": "A colonial-era lake with a flat lakeside promenade, pedal boats and pony rides on the Nuwara Eliya edge. Low effort and popular with families; useful filler on an afternoon when the weather has closed in.",
+      "tags": [
+        "family",
+        "relaxed",
+        "nature",
+        "accessible"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 1.5,
+      "entry_cost_usd_pp": 2,
+      "opening": "07:00-18:00"
+    },
+    {
+      "id": "ella_nine_arch",
+      "name": "Nine Arch Bridge",
+      "base": "ella",
+      "region": "Hill Country",
+      "type": "landmark",
+      "summary": "A 30m colonial viaduct of nine stone arches spanning a jungle gorge below Ella. The draw is a train crossing the span — roughly every two hours — reached by a 20-minute walk down through tea gardens from the Ella road.",
+      "tags": [
+        "photography",
+        "walking",
+        "train",
+        "budget"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "little_adams_peak",
+      "name": "Little Adam's Peak",
+      "base": "ella",
+      "region": "Hill Country",
+      "type": "hike",
+      "summary": "A gentle 45-minute walk up stepped path to a ridge with a wide view over Ella Gap. Manageable for most fitness levels and children, and the standard sunrise option in Ella for anyone not attempting Ella Rock.",
+      "tags": [
+        "hiking",
+        "sunrise",
+        "family",
+        "budget",
+        "photography"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "ella_rock",
+      "name": "Ella Rock",
+      "base": "ella",
+      "region": "Hill Country",
+      "type": "hike",
+      "summary": "A four-hour out-and-back along the railway line then up an unmarked forest trail to a 1,041m summit. Genuinely strenuous, easy to lose the path without a guide, and unsuitable for young children or a packed day.",
+      "tags": [
+        "hiking",
+        "strenuous",
+        "nature"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight, start before 07:00"
+    },
+    {
+      "id": "ravana_falls",
+      "name": "Ravana Falls",
+      "base": "ella",
+      "region": "Hill Country",
+      "type": "nature",
+      "summary": "A 25m roadside cascade on the Ella-Wellawaya road, viewable from the car in minutes. Fullest right after the monsoon and reduced to a trickle in the dry months. A stop rather than an activity.",
+      "tags": [
+        "nature",
+        "quick",
+        "budget",
+        "accessible"
+      ],
+      "best_months": [
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 0.5,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "yala_safari",
+      "name": "Yala National Park Safari",
+      "base": "yala",
+      "region": "South",
+      "type": "wildlife",
+      "summary": "The highest leopard density of any park in the world, plus sloth bear, elephant and crocodile across dry scrub and lagoons. Dawn departures give the best sightings and the worst crowding at the Block 1 gate. Block 1 closes annually from September to mid-October.",
+      "tags": [
+        "wildlife",
+        "safari",
+        "leopard",
+        "photography"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12
+      ],
+      "suggested_hours": 5.0,
+      "entry_cost_usd_pp": 70,
+      "opening": "06:00 and 14:00 departures; Block 1 closed Sep-mid Oct"
+    },
+    {
+      "id": "udawalawe_safari",
+      "name": "Udawalawe National Park Safari",
+      "base": "udawalawe",
+      "region": "South",
+      "type": "wildlife",
+      "summary": "Open grassland around a reservoir with near-guaranteed wild elephant sightings year-round and far fewer jeeps than Yala. The adjoining Elephant Transit Home feeds orphaned calves at set times. The dependable wildlife choice when Yala is closed or over-subscribed.",
+      "tags": [
+        "wildlife",
+        "safari",
+        "elephants",
+        "family",
+        "reliable"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 50,
+      "opening": "06:00 and 14:00 departures"
+    },
+    {
+      "id": "mirissa_whales",
+      "name": "Mirissa Blue Whale Watching",
+      "base": "mirissa",
+      "region": "South Coast",
+      "type": "wildlife",
+      "summary": "Early-morning boat trips into the deep water shelf south of Mirissa where blue whales and sperm whales pass. The season runs November to April; outside it the sea is too rough and operators stop. Swell makes seasickness common — not a good fit for nervous sailors.",
+      "tags": [
+        "wildlife",
+        "whales",
+        "boat",
+        "seasonal"
+      ],
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "suggested_hours": 5.0,
+      "entry_cost_usd_pp": 45,
+      "opening": "06:30 departure"
+    },
+    {
+      "id": "galle_fort",
+      "name": "Galle Fort",
+      "base": "galle",
+      "region": "South Coast",
+      "type": "heritage",
+      "summary": "A walled Dutch colonial town on a sea promontory, still lived in: coral-stone ramparts, a working lighthouse, boutique shops and cafes in 18th-century merchant houses. Walk the ramparts at sunset. Flat, compact and entirely free to enter.",
+      "tags": [
+        "culture",
+        "heritage",
+        "unesco",
+        "food",
+        "shopping",
+        "walking",
+        "accessible"
+      ],
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "suggested_hours": 3.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "open town, always accessible"
+    },
+    {
+      "id": "unawatuna_beach",
+      "name": "Unawatuna Beach",
+      "base": "unawatuna",
+      "region": "South Coast",
+      "type": "beach",
+      "summary": "A sheltered crescent bay with calm swimming water inside the reef, the safest of the south-coast beaches for children. Restaurants line the sand. Busy in high season and noticeably eroded at the western end.",
+      "tags": [
+        "beach",
+        "swimming",
+        "family",
+        "relaxed",
+        "food"
+      ],
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "suggested_hours": 3.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "weligama_surf",
+      "name": "Weligama Beginner Surf Lesson",
+      "base": "mirissa",
+      "region": "South Coast",
+      "type": "activity",
+      "summary": "A wide sandy-bottomed bay with slow, forgiving waves — the standard place in Sri Lanka to stand up on a board for the first time. Two-hour group lessons with board and rash vest included, running all through the south-coast season.",
+      "tags": [
+        "surfing",
+        "beach",
+        "activity",
+        "family",
+        "beginner"
+      ],
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 20,
+      "opening": "07:00-17:00"
+    },
+    {
+      "id": "hikkaduwa_reef",
+      "name": "Hikkaduwa Coral Sanctuary",
+      "base": "hikkaduwa",
+      "region": "South Coast",
+      "type": "activity",
+      "summary": "Shallow fringing reef reachable from the beach, with resident green turtles that come in to feed close to shore. Glass-bottom boats run for non-swimmers. Coral is bleached in patches; the turtles are the reliable draw.",
+      "tags": [
+        "snorkelling",
+        "beach",
+        "wildlife",
+        "family",
+        "turtles"
+      ],
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "suggested_hours": 3.0,
+      "entry_cost_usd_pp": 10,
+      "opening": "08:00-17:00"
+    },
+    {
+      "id": "colombo_city",
+      "name": "Colombo City Highlights",
+      "base": "colombo",
+      "region": "West",
+      "type": "city",
+      "summary": "Half a day covering the Pettah bazaar streets, the lakeside Gangaramaya temple, the Dutch Hospital courtyard and sunset street food on Galle Face Green. Traffic makes anything more than three stops unrealistic in an afternoon.",
+      "tags": [
+        "city",
+        "food",
+        "culture",
+        "shopping"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 5,
+      "opening": "daytime; Galle Face best at sunset"
+    },
+    {
+      "id": "negombo_lagoon",
+      "name": "Negombo Fish Market and Lagoon",
+      "base": "negombo",
+      "region": "West",
+      "type": "city",
+      "summary": "The Dutch-era canal and the Lellama fish market where the oruwa outrigger fleet lands the morning catch. Twenty minutes from the airport, which makes it the practical first or last night rather than fighting into Colombo traffic.",
+      "tags": [
+        "food",
+        "city",
+        "photography",
+        "airport-adjacent",
+        "budget"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 2.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "fish market best 06:00-09:00"
+    },
+    {
+      "id": "arugam_bay",
+      "name": "Arugam Bay Point Break",
+      "base": "arugam_bay",
+      "region": "East",
+      "type": "activity",
+      "summary": "A long right-hand point break and the centre of Sri Lanka's east-coast surf scene, with a season that runs May to September — the exact inverse of the south coast. Sleepy and largely shut outside those months.",
+      "tags": [
+        "surfing",
+        "beach",
+        "seasonal",
+        "relaxed"
+      ],
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 3.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "daylight"
+    },
+    {
+      "id": "trincomalee",
+      "name": "Trincomalee and Nilaveli Beach",
+      "base": "trincomalee",
+      "region": "East",
+      "type": "beach",
+      "summary": "Deep natural harbour with white-sand beaches at Nilaveli and Uppuveli, the Koneswaram cliff temple, and snorkelling off Pigeon Island. The east-coast season is May to September, when the south and west are under monsoon.",
+      "tags": [
+        "beach",
+        "snorkelling",
+        "seasonal",
+        "culture",
+        "relaxed"
+      ],
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 10,
+      "opening": "daylight"
+    },
+    {
+      "id": "jaffna",
+      "name": "Jaffna Peninsula",
+      "base": "jaffna",
+      "region": "North",
+      "type": "culture",
+      "summary": "The Tamil cultural heartland: the Nallur Kandaswamy kovil, the Dutch fort, palmyra country and a distinct northern cuisine built on crab curry and palmyra toddy. Far from everywhere else — an eight-hour drive from Colombo, better reached by rail or a domestic flight.",
+      "tags": [
+        "culture",
+        "food",
+        "off-the-beaten-track",
+        "tamil",
+        "heritage"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 5,
+      "opening": "daytime; kovil puja at 17:00"
+    },
+    {
+      "id": "sinharaja",
+      "name": "Sinharaja Rainforest Reserve",
+      "base": "sinharaja",
+      "region": "South-West",
+      "type": "nature",
+      "summary": "The last major stand of primary lowland rainforest on the island and a UNESCO site, with more than half of Sri Lanka's endemic birds, mammals and butterflies. A compulsory guide, leeches in the wet months and genuinely muddy trails.",
+      "tags": [
+        "nature",
+        "birding",
+        "wildlife",
+        "hiking",
+        "unesco",
+        "endemic"
+      ],
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "suggested_hours": 4.0,
+      "entry_cost_usd_pp": 25,
+      "opening": "06:30-16:00, guide compulsory"
+    },
+    {
+      "id": "adams_peak",
+      "name": "Adam's Peak (Sri Pada)",
+      "base": "nuwara_eliya",
+      "region": "Hill Country",
+      "type": "hike",
+      "summary": "A night ascent of 5,500 steps alongside Buddhist, Hindu, Muslim and Christian pilgrims to reach the summit shrine for sunrise. The pilgrimage season runs December to May, when the path is lit and the tea shops open; outside it the climb is unlit and exposed.",
+      "tags": [
+        "hiking",
+        "strenuous",
+        "pilgrimage",
+        "sunrise",
+        "culture",
+        "seasonal"
+      ],
+      "best_months": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "suggested_hours": 8.0,
+      "entry_cost_usd_pp": 0,
+      "opening": "ascent starts 02:00"
+    }
+  ],
+  "travel_times_h": {
+    "anuradhapura|colombo": 4.5,
+    "anuradhapura|dambulla": 1.5,
+    "anuradhapura|jaffna": 4.0,
+    "anuradhapura|kandy": 3.0,
+    "anuradhapura|negombo": 4.0,
+    "anuradhapura|polonnaruwa": 2.0,
+    "anuradhapura|sigiriya": 1.5,
+    "anuradhapura|trincomalee": 3.0,
+    "arugam_bay|ella": 3.5,
+    "arugam_bay|trincomalee": 4.0,
+    "arugam_bay|yala": 4.0,
+    "colombo|dambulla": 4.0,
+    "colombo|ella": 6.0,
+    "colombo|galle": 2.0,
+    "colombo|hikkaduwa": 1.5,
+    "colombo|jaffna": 8.0,
+    "colombo|kandy": 3.5,
+    "colombo|mirissa": 2.5,
+    "colombo|negombo": 1.0,
+    "colombo|nuwara_eliya": 5.0,
+    "colombo|polonnaruwa": 5.5,
+    "colombo|sigiriya": 4.5,
+    "colombo|sinharaja": 4.0,
+    "colombo|udawalawe": 4.0,
+    "colombo|unawatuna": 2.2,
+    "colombo|yala": 5.5,
+    "dambulla|kandy": 2.0,
+    "dambulla|negombo": 3.5,
+    "dambulla|polonnaruwa": 1.5,
+    "dambulla|sigiriya": 0.5,
+    "dambulla|trincomalee": 2.5,
+    "ella|galle": 4.0,
+    "ella|kandy": 5.0,
+    "ella|mirissa": 3.5,
+    "ella|nuwara_eliya": 2.0,
+    "ella|udawalawe": 2.5,
+    "ella|yala": 2.5,
+    "galle|hikkaduwa": 0.5,
+    "galle|kandy": 5.5,
+    "galle|mirissa": 1.0,
+    "galle|nuwara_eliya": 5.5,
+    "galle|sinharaja": 2.5,
+    "galle|udawalawe": 2.5,
+    "galle|unawatuna": 0.3,
+    "galle|yala": 3.5,
+    "hikkaduwa|mirissa": 1.3,
+    "hikkaduwa|unawatuna": 0.5,
+    "jaffna|trincomalee": 4.5,
+    "kandy|negombo": 3.5,
+    "kandy|nuwara_eliya": 3.0,
+    "kandy|polonnaruwa": 3.0,
+    "kandy|sigiriya": 2.5,
+    "kandy|udawalawe": 5.0,
+    "mirissa|udawalawe": 2.0,
+    "mirissa|unawatuna": 0.8,
+    "mirissa|yala": 2.5,
+    "negombo|sigiriya": 4.0,
+    "nuwara_eliya|sigiriya": 5.0,
+    "nuwara_eliya|udawalawe": 3.0,
+    "polonnaruwa|sigiriya": 1.5,
+    "sigiriya|trincomalee": 2.5,
+    "udawalawe|yala": 1.5
+  },
+  "practical_notes": [
+    {
+      "id": "note_monsoon",
+      "topic": "seasons",
+      "text": "Sri Lanka has two opposing monsoons. The south-west and hill country are driest December to April; the east and north are driest May to September. A trip in either window should stay on the matching coast rather than crossing the island for beach time."
+    },
+    {
+      "id": "note_transfers",
+      "topic": "logistics",
+      "text": "Road speeds average 35-40 km/h outside the Southern Expressway. Anything over five hours of driving in one day leaves no useful time for sightseeing, and over six hours should be split across two days or replaced by rail."
+    },
+    {
+      "id": "note_driver",
+      "topic": "logistics",
+      "text": "A car with an English-speaking driver-guide runs roughly 55-75 USD per day including fuel for a party of two to four, and is the standard way to cover a multi-region itinerary. Self-drive is legal but rarely advised."
+    },
+    {
+      "id": "note_budget",
+      "topic": "budget",
+      "text": "Outside entry fees, budget roughly 30-50 USD per person per day for mid-range guesthouses and 90-150 for boutique hotels, plus 15-25 per person per day for meals. Park fees and safaris are the single largest variable cost."
+    },
+    {
+      "id": "note_dress",
+      "topic": "culture",
+      "text": "Shoulders and knees must be covered at every Buddhist and Hindu site, shoes and hats removed before shrines, and turning your back on a Buddha image for a photograph causes real offence and has led to arrests."
+    },
+    {
+      "id": "note_children",
+      "topic": "family",
+      "text": "With children under eight, the Sigiriya climb, Ella Rock, Horton Plains and Adam's Peak are all realistically out. Udawalawe, the Peradeniya gardens, Gregory Lake, Unawatuna and the turtle reef at Hikkaduwa carry the load instead."
+    },
+    {
+      "id": "note_train",
+      "topic": "logistics",
+      "text": "Reserved seats on the Kandy-Ella observation train open 30 days ahead and sell out within hours in high season. Without a reservation the journey means standing in an unreserved carriage for up to seven hours."
+    },
+    {
+      "id": "note_yala_closure",
+      "topic": "wildlife",
+      "text": "Yala Block 1 closes each year from early September to mid-October for the drought. Udawalawe stays open year-round and is the substitute for any itinerary landing in that window."
+    },
+    {
+      "id": "note_pace",
+      "topic": "planning",
+      "text": "A relaxed pace means at most two ticketed activities a day and no more than three base changes across a fortnight. A packed pace still cannot exceed about ten hours of combined activity and transfer before the day stops being enjoyable."
+    },
+    {
+      "id": "note_currency",
+      "topic": "budget",
+      "text": "Site entry for foreign visitors is quoted in US dollars but payable in rupees at the gate rate. Card acceptance is unreliable at park gates and rural sites, so carry cash for entries and safaris."
+    }
+  ],
+  "cost_rates_usd": {
+    "note": "Planning ranges, not quotes. The validator uses the low end so an 'unaffordable' verdict is never a false alarm.",
+    "driver_guide_per_day": {
+      "low": 55,
+      "high": 75,
+      "covers_party_up_to": 4
+    },
+    "lodging_pp_per_night": {
+      "guesthouse": {
+        "low": 30,
+        "high": 50
+      },
+      "boutique": {
+        "low": 90,
+        "high": 150
+      }
+    },
+    "meals_pp_per_day": {
+      "low": 15,
+      "high": 25
+    }
+  },
+  "currency_rates_per_usd": {
+    "as_of": "2026-09-01",
+    "note": "Reference rates for planning only. Not a live feed; re-check before quoting.",
+    "rates": {
+      "USD": 1.0,
+      "LKR": 300.0,
+      "EUR": 0.92,
+      "GBP": 0.79,
+      "INR": 88.0,
+      "AUD": 1.52,
+      "SGD": 1.32,
+      "AED": 3.67,
+      "CAD": 1.37
+    }
+  }
+}
