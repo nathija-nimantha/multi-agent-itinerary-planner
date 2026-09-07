@@ -9,9 +9,9 @@ services:
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
     healthCheckPath: /api/health
-    # Free instances run a single container, which is what the in-memory
-    # interviewer sessions in main.py require. Do not scale this past 1.
-    numInstances: 1
+    # NOTE: the free plan runs exactly one container, which is what the
+    # in-memory interviewer sessions in main.py require. If this ever moves to
+    # a paid plan, do not scale it past a single instance.
     envVars:
       - key: MODEL_PROVIDER
         value: gemini
@@ -21,5 +21,7 @@ services:
         sync: false
       - key: GOOGLE_API_KEY
         sync: false
+      # CORS_ORIGINS must be the Vercel origin, no trailing slash:
+      #   https://multi-agent-itinerary.vercel.app
       - key: CORS_ORIGINS
         sync: false
