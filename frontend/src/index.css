@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter var", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --color-ink-50: #f6f7f6;
+  --color-ink-100: #e9ecea;
+  --color-ink-200: #d3d9d5;
+  --color-ink-400: #7d8a84;
+  --color-ink-600: #46534d;
+  --color-ink-800: #212b27;
+  --color-ink-900: #131a17;
+  --color-ink-950: #0b100e;
+
+  --color-petrol-400: #4fb0aa;
+  --color-petrol-500: #2a8a86;
+  --color-petrol-600: #16636a;
+  --color-petrol-700: #0f5257;
+}
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: var(--color-ink-50); color: var(--color-ink-900); }
+
+@media (prefers-color-scheme: dark) {
+  body { background: var(--color-ink-950); color: var(--color-ink-100); }
+}
+
+/* Trace panel scrollbars stay unobtrusive but visible. */
+.thin-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.thin-scroll::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, currentColor 22%, transparent);
+  border-radius: 4px;
+}
+.thin-scroll::-webkit-scrollbar-track { background: transparent; }
