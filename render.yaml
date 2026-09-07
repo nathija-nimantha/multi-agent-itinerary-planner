@@ -1,0 +1,25 @@
+# Render blueprint for the backend. The frontend is deployed separately to
+# Vercel; see frontend/vercel.json.
+services:
+  - type: web
+    name: itinerary-backend
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    # Free instances run a single container, which is what the in-memory
+    # interviewer sessions in main.py require. Do not scale this past 1.
+    numInstances: 1
+    envVars:
+      - key: MODEL_PROVIDER
+        value: gemini
+      # sync:false keeps these out of the repo — set them in the Render
+      # dashboard. CORS_ORIGINS must be the Vercel origin, no trailing slash.
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false

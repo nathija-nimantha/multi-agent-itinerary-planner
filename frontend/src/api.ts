@@ -1,5 +1,20 @@
 import type { TraceEvent } from "./types";
 
+/**
+ * Where the backend lives.
+ *
+ * Empty in development: Vite proxies /api to :8420 (see vite.config.ts), so a
+ * relative path is already correct. In production the frontend is on Vercel and
+ * the backend on Render, so this carries the backend origin and the browser
+ * talks to it directly.
+ *
+ * Deliberately NOT a Vercel rewrite. A rewrite would put Vercel's edge proxy in
+ * front of the /api/plan SSE stream, which runs for minutes and would be cut by
+ * the proxy's own response timeout. Direct calls with CORS avoid that entirely.
+ */
+const API_BASE = (import.meta.env.VITE_API_BASE ?? "").replace(/\/$/, "");
+
+const url = (path: string) => `${API_BASE}${path}`;
 
 export type ChatResponse = {
   session_id: string;
@@ -22,7 +37,7 @@ async function readError(res: Response): Promise<string> {
 }
 
 export async function health() {
-  const res = await fetch("/api/health");
+  const res = await fetch(url("/api/health"));
   if (!res.ok) throw new Error(await readError(res));
   return res.json() as Promise<{
     ok: boolean;
@@ -35,7 +50,7 @@ export async function health() {
 export async function chat(message: string, sessionId: string | null) {
   let res: Response;
   try {
-    res = await fetch("/api/chat", {
+    res = await fetch(url("/api/chat"), {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ message, session_id: sessionId }),
@@ -63,7 +78,7 @@ export async function streamPlan(
   onEvent: (event: TraceEvent) => void,
   signal?: AbortSignal,
 ): Promise<void> {
-  const res = await fetch("/api/plan", {
+  const res = await fetch(url("/api/plan"), {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ brief }),
